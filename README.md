@@ -2,4 +2,4 @@
 
 #### Desktop: 
 
-![Desktop](https://raw.githubusercontent.com/GiovanaLoni/bon-voyage/master/demo/desktop.png?raw=true)
+![Desktop](https://raw.githubusercontent.com/giovanaloni/bon-voyage/master/demo/desktop.png?raw=true)
