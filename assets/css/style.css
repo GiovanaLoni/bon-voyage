@@ -1,0 +1,119 @@
+/* General */
+
+body {
+    background-color: #ebecee;
+    margin: unset;
+    font-family: 'Oswald', sans-serif;
+}
+
+ /* Header */
+
+#menu {
+    display: block;
+    background-color: white;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    display: inline-block;
+    padding-left: unset;
+    box-shadow: 0px -10px 30px;
+}
+
+#menu a {
+    color: #333;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#menu .menu-container {
+    position: relative;
+    width: 100%;
+}
+
+#menu .menu-container #logo {
+    margin: 0 auto;
+    display: block;
+}
+
+#menu a:hover {
+    color: #f9b967;
+}
+
+#menu .menu-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+}
+
+#menu .menu-container ul li {
+    display:inline-block;
+    margin-top: 30px;
+}
+
+#menu .menu-container li {
+    padding: 5px;
+}
+
+#menu .menu-container .right,
+#menu .menu-container .left {
+    margin-right: 10px;
+}
+
+#menu .menu-container .right {
+    text-align: right;
+    margin-right: 40px;
+}
+
+/* Main */
+
+.container {
+    padding-top: 130px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-row: 300px;
+}
+
+.container .items {
+   margin: 20px;
+   background-color: white;
+   border-radius: 5px;
+}
+
+.container .items .image {
+    height: 300px;
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.container .items .content {
+    padding: 20px;
+    font-weight: 300;
+}
+
+.container .items .content h2 {
+    font-weight: 400;
+}
+
+.container .items .content span {
+    height: 120px;
+    display: block;
+}
+
+.container .items .content hr {
+    width: 5%;
+    margin-left: 0;
+    border: 1px solid #f9b967;
+}
+
+.container .items .content a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: #f9b967;
+}
+
+.container .items .content a:hover {
+    color: #333;
+}
