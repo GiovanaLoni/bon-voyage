@@ -1,0 +1,128 @@
+/* Header */
+
+#menu {
+    background-color: white;
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    padding-left: unset;
+    box-shadow: 0px -10px 30px;
+}
+
+#menu a {
+    color: #333;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#menu .menu-container {
+    position: relative;
+    width: 100%;
+}
+
+#menu .menu-container #logo {
+    margin: 10px;
+    display: block;
+}
+
+#menu a:hover {
+    color: #f9b967;
+}
+
+#menu .menu-container ul li {
+    margin-top: 30px;
+}
+
+#menu .menu-container li {
+    padding: 5px;
+}
+
+#menu .menu-container #menu-items {
+    margin-right: 40px;
+}
+
+#menu .menu-container .hamburguer {
+    right: 0;
+    position: absolute;
+}
+
+/* Mobile */
+
+@media (max-width: 767px) { 
+    #menu .menu-container {
+        width: 100%;
+    }
+
+    #menu .menu-container ul li {
+        list-style-type: none;
+        text-align: center;
+    }
+
+    #menu a {
+        width: 100%;
+    }
+
+    #menu .menu-container #logo {
+        margin: 0 auto;
+        display: block;
+        max-width: 80px
+    }
+
+    #menu .menu-container .hamburguer {
+        margin-top: -30px;
+        margin-right: 35px;
+    }
+
+    #menu .menu-container #menu-items {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    #menu .menu-container #menu-items {
+        margin-right: 10px;
+        font-size: 13px;
+    }
+
+    #menu .menu-container {
+        display: grid;
+        grid-template-columns: 20% 0% 80%;
+    }
+
+    #menu .menu-container ul li {
+        display: inline-block;
+    }
+
+    #menu a {
+        width: 100%;
+    }
+
+    #menu .menu-container #menu-items {
+        float: right;
+        margin-top: 25px;
+        text-align: right;
+    }
+
+    #menu .menu-container .hamburguer {
+        display: none;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    #menu {
+        background-color: white;
+        width: 100%;
+        height: auto;
+        position: fixed;
+        display: inline-block;
+        padding-left: unset;
+        box-shadow: 0px -10px 30px;
+    }
+
+    #menu .menu-container #logo {
+        position: unset;
+    }
+}

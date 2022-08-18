@@ -1,0 +1,66 @@
+#destinations {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-row: 300px;
+}
+
+#destinations .items {
+    margin: 20px;
+    background-color: white;
+    border-radius: 5px;
+ }
+ 
+ #destinations .items .image {
+     height: 300px;
+     background-repeat:no-repeat;
+     background-position: center center;
+     background-size: cover;
+ }
+ 
+ #destinations .items .content {
+     padding: 20px;
+     font-weight: 300;
+ }
+ 
+ #destinations .items .content h2 {
+     font-weight: 400;
+ }
+ 
+ #destinations .items .content span {
+     height: 120px;
+     display: block;
+ }
+ 
+ #destinations .items .content hr {
+     width: 5%;
+     margin-left: 0;
+     border: 1px solid #f9b967;
+ }
+ 
+ #destinations .items .content a {
+     text-decoration: none;
+     font-weight: bolder;
+     color: #f9b967;
+ }
+ 
+ #destinations .items .content a:hover {
+     color: #333;
+ }
+
+@media (min-width: 576px) {
+    #destinations {
+        grid-template-columns: 50% 50%;
+    }
+}
+
+@media (min-width: 768px) {
+    #destinations {
+        grid-template-columns: 33% 33% 33%;
+    }
+}
+
+@media (min-width: 1200px) {
+    #destinations {
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+}

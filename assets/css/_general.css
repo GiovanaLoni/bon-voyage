@@ -1,0 +1,21 @@
+/* General */
+
+body {
+    background-color: #ebecee;
+    margin: unset;
+    font-family: 'Oswald', sans-serif;
+}
+/* Mobile */
+@media (min-width: 576px) {
+    
+}
+
+@media (min-width: 768px) {
+    
+}
+
+@media (min-width: 1200px) {
+    .container {
+        padding-top: 130px;
+    }
+}

@@ -8,18 +8,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500&family=Oswald:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
 <body>
     <header id="menu">
         <nav class="menu-container">
-            <ul class="left">
+            <img id="logo" src="img/logo.png" alt="">
+            <a href="javascript:void(0)" onclick="toggleNavbar()"><i class="fa-solid fa-bars hamburguer"></i></a>
+            <ul id="menu-items">
                 <li><a href="#">Fale Conosco</a></li>
                 <li><a href="#">Pacotes</a></li>
                 <li><a href="">Promoção</a></li>
-            </ul>
-            <img id="logo" src="img/logo.png" alt="">
-            <ul class="right">
-                <li> <a href="#">Destinos</a></li>
+                <li><a href="#">Destinos</a></li>
                 <li><a href="#">Datas</a></li>
                 <li><a href="#">Hotéis</a></li> 
                 <li><a href="#">Resorts</a></li>
@@ -27,9 +27,9 @@
         </nav>
     </header>
     <main>
-        <div class="container">
+        <div class="container" id="destinations">
             <div class="items">
-                <div class="image" style="background-image: url(/img/img_1.png);"> 
+                <div class="image" style="background-image: url('/img/img_1.png');"> 
                     <!-- <img src="img/imagem.png" alt=""/> -->
                 </div>
                 <div class="content">
@@ -81,5 +81,6 @@
             </div>
         </div>
     </main>
+    <script src="/assets/js/navbar.js"></script>
 </body>
 </html>
